@@ -1,3 +1,6 @@
+console.log("28.26");
+console.log("1256");
+
 // Declare a variable //
 let age = 25;
 
