@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+div {
+    max-width: 40%;
+    border: 1px solid darkgrey;
+    margin: 40px auto;
+    padding: 50px;
+    font-size: 90%;
+}
+
+h1, h2 {
+    font-family: "Cinzel", "Times New Roman";
+    font-weight: 500;
+}
+
+h2 {
+    color: rgb(49, 140, 215);
+    font-size: 100%;
+}
+
+i {
+    display: block;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+hr {
+    width: 75%;
+}
+
+li {
+    margin-top: 20px;
+}
+
+p, i {
+    width: 75%;
+    margin: 0 auto;
+}
+
+ol {
+    width: 70%;
+    margin: 0 auto;
+}
+
+p, hr {
+    margin-bottom: 20px;
+}
