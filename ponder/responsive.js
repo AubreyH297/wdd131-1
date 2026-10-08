@@ -9,8 +9,7 @@ menuButton.addEventListener("click", function (e) {
     
     nav.style.display = nav.style.display === "" ? "flex" : "";
 
-    console.log(menuButton);
-    console.log(menuButton.classList);
-
-    menuButton.classList.toggle('change');
+    console.log("menuButton:", menuButton);
+    console.log("classList:", menuButton.classList);
+    console.log("toggle:", menuButton.classList.toggle);
 });
