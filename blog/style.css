@@ -1,0 +1,72 @@
+body {
+    text-size-adjust: 150%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border-color: rgb(255, 217, 0);
+}
+
+#divider-1 {
+    margin-top: 65px;
+}
+
+#divider-2 {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+nav a {
+    margin: 10px;
+}
+
+h2, nav a {
+    color: brown;
+}
+
+#book-stats {
+    text-align: right;
+    margin-right: 30px;
+}
+
+#book-info {
+    margin: 0 auto;
+    margin-right: 300px;
+    width: 55%;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (min-width: 1000px) {
+    main {
+        display: flex;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    #divider-1 {
+        display: none;
+    }
+
+    #divider-2 {
+        display: inline;
+    }
+}
