@@ -10,11 +10,11 @@ hr {
     border-color: rgb(255, 217, 0);
 }
 
-#divider-1 {
+.divider-1 {
     margin-top: 65px;
 }
 
-#divider-2 {
+.divider-2 {
     display: none;
 }
 
@@ -32,14 +32,13 @@ h2, nav a {
     color: brown;
 }
 
-#book-stats {
+.book-stats {
     text-align: right;
     margin-right: 30px;
 }
 
-#book-info {
-    margin: 0 auto;
-    margin-right: 300px;
+.book-info {
+    margin-right: 25%;
     width: 55%;
     text-align: center;
 }
@@ -60,13 +59,31 @@ footer {
         margin: 0 auto;
         margin-top: 50px;
         margin-right: 0;
+        flex-direction: column;
     }
 
-    #divider-1 {
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 3fr;
+        margin-bottom: 100px;
+        margin-right: 30%;
+        width: 80%;
+    }
+
+    .book-stats {
+        grid-column: 1/2;
+    }
+
+    .divider-1 {
         display: none;
     }
 
-    #divider-2 {
-        display: inline;
+    .divider-2 {
+        display: flex;
+        grid-column: 2/3;
+    }
+
+    .book-info {
+        grid-column: 3/4;
     }
 }
