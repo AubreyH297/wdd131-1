@@ -47,7 +47,7 @@ document.querySelector("#enrollStudent").addEventListener("click", (e) => {
     });
 
     // different way to do the same thing, above
-    aCourse.sections.find(section => section.sectionNum == sectionNumber).enrolled++;
+    // aCourse.sections.find(section => section.sectionNum == sectionNumber).enrolled++;
 
     // re-render the table with updated data
     renderSections(aCourse.sections);
