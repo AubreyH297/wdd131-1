@@ -349,7 +349,7 @@ function displayResults(sortedRecipes) {
 
         recipeContainer.innerHTML += `
 			<div class="recipe">
-				<img src="${recipe.image}">
+				<img src="${recipe.image}" alt="${recipe.name}">
 				<div>
 					<section class="buttons">
 						${buttons}
