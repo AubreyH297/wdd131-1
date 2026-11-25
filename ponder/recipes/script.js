@@ -291,7 +291,7 @@ let ratings = ratingCalc(display.rating);
 
 recipeContainer.innerHTML = `
 	<div class="recipe">
-		<img src="${display.image}">
+		<img src="${display.image}" alt="${display.name}">
 		<div>
 			<section class="buttons">
 				${buttons}
